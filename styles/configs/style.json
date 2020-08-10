@@ -1,9 +1,4 @@
 {
-  "info-card":{
-    "max-width":"1260px",
-    "margin":"0 auto",
-    "padding":"0"
-  },
   "typeScale": [
     3,
     2.25,
