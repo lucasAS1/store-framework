@@ -33,7 +33,12 @@
             "search-bar",
             "minicart",
             "login"
-        ]
+        ],
+        "props":{
+            "inverted":true,
+            "sticky":true,
+            "fullwidth":false
+        }
     },
 
     "header-row#notification": {
@@ -41,12 +46,7 @@
           "header-spacer",
           "rich-text#header",
           "header-spacer"
-        ],
-        "props":{
-            "inverted":true,
-            "sticky":true,
-            "fullwidth":false
-        }
+        ]
     },
 
     "header-row#main-mobile": {
