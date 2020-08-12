@@ -46,11 +46,7 @@
           "header-spacer",
           "rich-text#header",
           "header-spacer"
-        ],
-        "props":{
-            "sticky":true,
-            "fullwidth":false
-        }
+        ]
     },
 
     "header-row#main-mobile": {
