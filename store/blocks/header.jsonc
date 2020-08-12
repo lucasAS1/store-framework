@@ -28,6 +28,7 @@
     },
     "header-row#main":{
         "children":[
+            "header-spacer",
             "logo",
             "search-bar",
             "minicart",
