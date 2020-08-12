@@ -28,8 +28,8 @@
     },
     "header-row#main":{
         "children":[
-            "header-spacer",
             "logo",
+            "header-spacer",
             "search-bar",
             "minicart",
             "login"
