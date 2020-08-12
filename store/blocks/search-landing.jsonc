@@ -1,0 +1,24 @@
+{
+    "store.custom#landing":{
+        "children":[
+            "image#landingbanner", 
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingbanner": {
+        "props": {
+          "src": "https://via.placeholder.com/1300x400.png",
+          "minWidth":"100%"
+        }
+    },
+    "search-result-layout.customQuery":{
+        "props":{
+            "querySchema":{
+                "orderByField":"OrderByReleaseDateDESC",
+                "hideUnavailableItems":true,
+                "maxItemsPerPage":8,
+                "queryField":"major-appliances"
+            }
+        }
+    }
+}
