@@ -22,7 +22,6 @@
     
     "header-layout.mobile": {
         "children": [
-        "drawer",
         "header-row#notification",
         "header-row#main-mobile",
         "header-row#search",
@@ -64,10 +63,11 @@
 
     "header-row#main-mobile": {
         "children": [
-          "logo",
-          "header-spacer",
-          "minicart",
-          "login"
+            "drawer",
+            "logo",
+            "header-spacer",
+            "minicart",
+            "login"
         ],
       
         "props": {

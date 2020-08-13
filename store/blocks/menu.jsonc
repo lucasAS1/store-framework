@@ -11,6 +11,48 @@
       }
     },
 
+    "menu-item#major-appliances":{
+        "blocks":[
+            "vtex.menu@2.x:submenu#major"        
+        ],
+        "props": {
+            "type": "category",
+            "highlight": true,
+            "itemProps": {
+              "categoryId":1,
+              "text": "Major Aplliances"
+            }
+          }
+    },
+    "menu-item#small-appliances":{
+        "blocks":[
+            "vtex.menu@2.x:submenu#small"        
+        ],
+        "props":
+        {
+          "type": "category",
+          "highlight": true,
+          "itemProps": {
+            "categoryId": 2, 
+            "text": "Small Appliances"
+          }
+        }
+    },
+    "menu-item#electronics":{
+        "blocks":[
+            "vtex.menu@2.x:submenu#electro"        
+        ],
+        "props":
+        {
+          "type": "category",
+          "highlight": true,
+          "itemProps": {
+            "categoryId": 3, 
+            "text": "Electronics"
+          }
+        }
+    },
+
     "vtex.menu@2.x:submenu#major":{
         "children":[
           "vtex.menu@2.x:menu#major"
