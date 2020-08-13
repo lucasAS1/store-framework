@@ -7,7 +7,10 @@
         "categoryId":1,
         "text": "Major Aplliances"
       }
-    }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#major"
+    ]
   },
   "menu-item#small-appliances": {
       "props":
@@ -18,7 +21,10 @@
         "categoryId": 2, 
         "text": "Small Appliances"
       }
-    }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#small"
+    ]
   },
   "menu-item#electronics": {
       "props":
@@ -29,7 +35,10 @@
         "categoryId": 3, 
         "text": "Electronics"
       }
-    }
+    },
+    "blocks":[
+      "vtex.menu@2.x:submenu#electronics"
+    ]
   },
   "menu-item#refrigerators": {
       "props":

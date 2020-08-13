@@ -11,53 +11,6 @@
       }
     },
 
-    "menu-item#major-appliances":{
-        "blocks":[
-            "vtex.menu@2.x:submenu#major"        
-        ],
-        "props": {
-            "type": "category",
-            "highlight": true,
-            "itemProps": {
-              "categoryId":1,
-              "text": "Major Aplliances"
-            }
-          }
-    },
-    "menu-item#small-appliances":{
-        "blocks":[
-            "vtex.menu@2.x:submenu#small"        
-        ],
-        "props":
-        {
-          "type": "category",
-          "highlight": true,
-          "itemProps": {
-            "categoryId": 2, 
-            "text": "Small Appliances"
-          }
-        }
-    },
-    "menu-item#electronics":{
-        "blocks":[
-            "vtex.menu@2.x:submenu#electronics"        
-        ],
-        "props":
-        {
-          "type": "category",
-          "highlight": true,
-          "itemProps": {
-            "categoryId": 3, 
-            "text": "Electronics"
-          }
-        }
-    },
-
-    "vtex.menu@2.x:submenu#major":{
-        "children":[
-          "vtex.menu@2.x:menu#major"
-        ]
-    },
     "vtex.menu@2.x:menu#major":{
         "children":[
             "menu-item#refrigerators",
@@ -68,11 +21,7 @@
             "orientation":"vertical"
         }
     },
-    "vtex.menu@2.x:submenu#small":{
-        "children":[
-          "vtex.menu@2.x:menu#small"
-        ]
-    },
+
     "vtex.menu@2.x:menu#small":{
         "children":[
             "menu-item#mixers",
@@ -83,11 +32,7 @@
             "orientation":"vertical"
         }
     },
-    "vtex.menu@2.x:submenu#electronics":{
-        "children":[
-            "vtex.menu@2.x:menu#electronics"
-        ]
-    },
+
     "vtex.menu@2.x:menu#electronics":{
         "children":[
             "menu-item#cameras",
@@ -97,5 +42,20 @@
         "props":{
             "orientation":"vertical"
         }
+    },
+    "vtex.menu@2.x:submenu#major":{
+      "children":[
+        "vtex.menu@2.x:menu#major"
+      ]
+    },
+    "vtex.menu@2.x:submenu#small":{
+        "children":[
+          "vtex.menu@2.x:menu#small"
+        ]
+    },
+    "vtex.menu@2.x:submenu#electronics":{
+      "children":[
+          "vtex.menu@2.x:menu#electronics"
+      ]
     }
 }
